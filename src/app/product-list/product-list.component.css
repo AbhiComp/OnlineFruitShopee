@@ -1,0 +1,65 @@
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;
+  }
+
+
+  /* General Button Styling */
+button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  margin: 5px; /* Add some spacing */
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Disabled Button Styling */
+button:disabled {
+  background-color: #cccccc; /* Light gray background */
+  cursor: not-allowed; /* Show not-allowed cursor */
+}
+
+/* Specific Button Styles */
+.add-to-cart-btn {
+  background-color: #007bff; /* Blue background */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.remove-btn {
+  background-color: #ff4d4d; /* Red background */
+}
+
+.remove-btn:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+.checkout-btn {
+  background-color: #ff9800; /* Orange background */
+}
+
+.checkout-btn:hover {
+  background-color: #e68900; /* Darker orange on hover */
+}

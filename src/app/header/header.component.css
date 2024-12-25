@@ -1,0 +1,55 @@
+/* General Navigation Bar Styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the Shop Name */
+nav h1 {
+  font-family: 'Poppins', sans-serif; /* Modern and elegant font */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Styling for Navigation Links */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  font-family: 'Roboto', sans-serif; /* Clean and readable font */
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px; /* Rounded buttons */
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+li a:hover {
+  background-color: white;
+  color: #43a047;
+  border: 1px solid #43a047;
+}
+
+li a.active {
+  background-color: #ffffff;
+  color: #43a047;
+  border: 1px solid #43a047;
+  font-weight: bold;
+}

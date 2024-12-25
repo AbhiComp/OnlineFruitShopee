@@ -1,0 +1,7 @@
+<div *ngFor="let fruit of fruits" class="product">
+  <img src="/images/{{ fruit.name.toLowerCase() }}.jpg" alt="{{ fruit.name }}" />
+  <h3>{{ fruit.name }}</h3>
+  <p>Price: {{ fruit.price | currency: 'INR' }}</p>
+  <input [(ngModel)]="fruit.quantity" type="number" min="1" />
+  <button (click)="addToCart(fruit)">Add to Cart</button>
+</div>
